@@ -236,6 +236,9 @@ HelloGL_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 HelloGL_SOURCE_DIR:STATIC=/Users/wangxiao/code/OpenGL
 
+//Dependencies for the target
+OpenGL_LIB_DEPENDS:STATIC=general;/Users/wangxiao/code/OpenGL/lib/libglfw.3.dylib;general;/Users/wangxiao/code/OpenGL/lib/libGLEW.dylib;
+
 
 ########################
 # INTERNAL cache entries
