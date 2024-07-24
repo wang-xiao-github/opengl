@@ -81,12 +81,12 @@ clean: CMakeFiles/HelloGL.dir/clean
 CMakeFiles/HelloGL.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloGL.dir/build.make CMakeFiles/HelloGL.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HelloGL.dir/build.make CMakeFiles/HelloGL.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/wangxiao/code/OpenGL/build/CMakeFiles --progress-num=1,2 "Built target HelloGL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/wangxiao/code/OpenGL/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target HelloGL"
 .PHONY : CMakeFiles/HelloGL.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/HelloGL.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangxiao/code/OpenGL/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangxiao/code/OpenGL/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/HelloGL.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangxiao/code/OpenGL/build/CMakeFiles 0
 .PHONY : CMakeFiles/HelloGL.dir/rule

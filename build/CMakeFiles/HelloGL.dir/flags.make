@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/wangxiao/code/OpenGL/include -I/Users/wangxiao/code/OpenGL/lib
+CXX_INCLUDES = -I/Users/wangxiao/code/OpenGL/include -I/Users/wangxiao/code/OpenGL/lib -I/Users/wangxiao/code/OpenGL/src
 
 CXX_FLAGSarm64 = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4
 
