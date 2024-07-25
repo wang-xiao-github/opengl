@@ -83,19 +83,99 @@ CMakeFiles/HelloGL.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HelloGL.dir/src/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wangxiao/code/OpenGL/src/main.cpp -o CMakeFiles/HelloGL.dir/src/main.cpp.s
 
+CMakeFiles/HelloGL.dir/src/Renderer.cpp.o: CMakeFiles/HelloGL.dir/flags.make
+CMakeFiles/HelloGL.dir/src/Renderer.cpp.o: /Users/wangxiao/code/OpenGL/src/Renderer.cpp
+CMakeFiles/HelloGL.dir/src/Renderer.cpp.o: CMakeFiles/HelloGL.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wangxiao/code/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HelloGL.dir/src/Renderer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HelloGL.dir/src/Renderer.cpp.o -MF CMakeFiles/HelloGL.dir/src/Renderer.cpp.o.d -o CMakeFiles/HelloGL.dir/src/Renderer.cpp.o -c /Users/wangxiao/code/OpenGL/src/Renderer.cpp
+
+CMakeFiles/HelloGL.dir/src/Renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HelloGL.dir/src/Renderer.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wangxiao/code/OpenGL/src/Renderer.cpp > CMakeFiles/HelloGL.dir/src/Renderer.cpp.i
+
+CMakeFiles/HelloGL.dir/src/Renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HelloGL.dir/src/Renderer.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wangxiao/code/OpenGL/src/Renderer.cpp -o CMakeFiles/HelloGL.dir/src/Renderer.cpp.s
+
+CMakeFiles/HelloGL.dir/src/VertexBuffer.cpp.o: CMakeFiles/HelloGL.dir/flags.make
+CMakeFiles/HelloGL.dir/src/VertexBuffer.cpp.o: /Users/wangxiao/code/OpenGL/src/VertexBuffer.cpp
+CMakeFiles/HelloGL.dir/src/VertexBuffer.cpp.o: CMakeFiles/HelloGL.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wangxiao/code/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HelloGL.dir/src/VertexBuffer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HelloGL.dir/src/VertexBuffer.cpp.o -MF CMakeFiles/HelloGL.dir/src/VertexBuffer.cpp.o.d -o CMakeFiles/HelloGL.dir/src/VertexBuffer.cpp.o -c /Users/wangxiao/code/OpenGL/src/VertexBuffer.cpp
+
+CMakeFiles/HelloGL.dir/src/VertexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HelloGL.dir/src/VertexBuffer.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wangxiao/code/OpenGL/src/VertexBuffer.cpp > CMakeFiles/HelloGL.dir/src/VertexBuffer.cpp.i
+
+CMakeFiles/HelloGL.dir/src/VertexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HelloGL.dir/src/VertexBuffer.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wangxiao/code/OpenGL/src/VertexBuffer.cpp -o CMakeFiles/HelloGL.dir/src/VertexBuffer.cpp.s
+
+CMakeFiles/HelloGL.dir/src/IndexBuffer.cpp.o: CMakeFiles/HelloGL.dir/flags.make
+CMakeFiles/HelloGL.dir/src/IndexBuffer.cpp.o: /Users/wangxiao/code/OpenGL/src/IndexBuffer.cpp
+CMakeFiles/HelloGL.dir/src/IndexBuffer.cpp.o: CMakeFiles/HelloGL.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wangxiao/code/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/HelloGL.dir/src/IndexBuffer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HelloGL.dir/src/IndexBuffer.cpp.o -MF CMakeFiles/HelloGL.dir/src/IndexBuffer.cpp.o.d -o CMakeFiles/HelloGL.dir/src/IndexBuffer.cpp.o -c /Users/wangxiao/code/OpenGL/src/IndexBuffer.cpp
+
+CMakeFiles/HelloGL.dir/src/IndexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HelloGL.dir/src/IndexBuffer.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wangxiao/code/OpenGL/src/IndexBuffer.cpp > CMakeFiles/HelloGL.dir/src/IndexBuffer.cpp.i
+
+CMakeFiles/HelloGL.dir/src/IndexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HelloGL.dir/src/IndexBuffer.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wangxiao/code/OpenGL/src/IndexBuffer.cpp -o CMakeFiles/HelloGL.dir/src/IndexBuffer.cpp.s
+
+CMakeFiles/HelloGL.dir/src/VertexArray.cpp.o: CMakeFiles/HelloGL.dir/flags.make
+CMakeFiles/HelloGL.dir/src/VertexArray.cpp.o: /Users/wangxiao/code/OpenGL/src/VertexArray.cpp
+CMakeFiles/HelloGL.dir/src/VertexArray.cpp.o: CMakeFiles/HelloGL.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wangxiao/code/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/HelloGL.dir/src/VertexArray.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HelloGL.dir/src/VertexArray.cpp.o -MF CMakeFiles/HelloGL.dir/src/VertexArray.cpp.o.d -o CMakeFiles/HelloGL.dir/src/VertexArray.cpp.o -c /Users/wangxiao/code/OpenGL/src/VertexArray.cpp
+
+CMakeFiles/HelloGL.dir/src/VertexArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HelloGL.dir/src/VertexArray.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wangxiao/code/OpenGL/src/VertexArray.cpp > CMakeFiles/HelloGL.dir/src/VertexArray.cpp.i
+
+CMakeFiles/HelloGL.dir/src/VertexArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HelloGL.dir/src/VertexArray.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wangxiao/code/OpenGL/src/VertexArray.cpp -o CMakeFiles/HelloGL.dir/src/VertexArray.cpp.s
+
+CMakeFiles/HelloGL.dir/src/Shader.cpp.o: CMakeFiles/HelloGL.dir/flags.make
+CMakeFiles/HelloGL.dir/src/Shader.cpp.o: /Users/wangxiao/code/OpenGL/src/Shader.cpp
+CMakeFiles/HelloGL.dir/src/Shader.cpp.o: CMakeFiles/HelloGL.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wangxiao/code/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/HelloGL.dir/src/Shader.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/HelloGL.dir/src/Shader.cpp.o -MF CMakeFiles/HelloGL.dir/src/Shader.cpp.o.d -o CMakeFiles/HelloGL.dir/src/Shader.cpp.o -c /Users/wangxiao/code/OpenGL/src/Shader.cpp
+
+CMakeFiles/HelloGL.dir/src/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/HelloGL.dir/src/Shader.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wangxiao/code/OpenGL/src/Shader.cpp > CMakeFiles/HelloGL.dir/src/Shader.cpp.i
+
+CMakeFiles/HelloGL.dir/src/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/HelloGL.dir/src/Shader.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wangxiao/code/OpenGL/src/Shader.cpp -o CMakeFiles/HelloGL.dir/src/Shader.cpp.s
+
 # Object files for target HelloGL
 HelloGL_OBJECTS = \
-"CMakeFiles/HelloGL.dir/src/main.cpp.o"
+"CMakeFiles/HelloGL.dir/src/main.cpp.o" \
+"CMakeFiles/HelloGL.dir/src/Renderer.cpp.o" \
+"CMakeFiles/HelloGL.dir/src/VertexBuffer.cpp.o" \
+"CMakeFiles/HelloGL.dir/src/IndexBuffer.cpp.o" \
+"CMakeFiles/HelloGL.dir/src/VertexArray.cpp.o" \
+"CMakeFiles/HelloGL.dir/src/Shader.cpp.o"
 
 # External object files for target HelloGL
 HelloGL_EXTERNAL_OBJECTS =
 
 HelloGL: CMakeFiles/HelloGL.dir/src/main.cpp.o
+HelloGL: CMakeFiles/HelloGL.dir/src/Renderer.cpp.o
+HelloGL: CMakeFiles/HelloGL.dir/src/VertexBuffer.cpp.o
+HelloGL: CMakeFiles/HelloGL.dir/src/IndexBuffer.cpp.o
+HelloGL: CMakeFiles/HelloGL.dir/src/VertexArray.cpp.o
+HelloGL: CMakeFiles/HelloGL.dir/src/Shader.cpp.o
 HelloGL: CMakeFiles/HelloGL.dir/build.make
 HelloGL: /Users/wangxiao/code/OpenGL/lib/libglfw.3.dylib
 HelloGL: /Users/wangxiao/code/OpenGL/lib/libGLEW.dylib
 HelloGL: CMakeFiles/HelloGL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/wangxiao/code/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable HelloGL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/wangxiao/code/OpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable HelloGL"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HelloGL.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
