@@ -1,32 +1,38 @@
 [
 {
   "directory": "/Users/wangxiao/code/OpenGL/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/wangxiao/code/OpenGL/include -I/Users/wangxiao/code/OpenGL/lib -I/Users/wangxiao/code/OpenGL/src -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o CMakeFiles/HelloGL.dir/src/main.cpp.o -c /Users/wangxiao/code/OpenGL/src/main.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/wangxiao/code/OpenGL/include -I/Users/wangxiao/code/OpenGL/src/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/HelloGL.dir/src/main.cpp.o -c /Users/wangxiao/code/OpenGL/src/main.cpp",
   "file": "/Users/wangxiao/code/OpenGL/src/main.cpp",
   "output": "CMakeFiles/HelloGL.dir/src/main.cpp.o"
 },
 {
   "directory": "/Users/wangxiao/code/OpenGL/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/wangxiao/code/OpenGL/include -I/Users/wangxiao/code/OpenGL/lib -I/Users/wangxiao/code/OpenGL/src -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o CMakeFiles/HelloGL.dir/src/Renderer.cpp.o -c /Users/wangxiao/code/OpenGL/src/Renderer.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/wangxiao/code/OpenGL/include -I/Users/wangxiao/code/OpenGL/src/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/HelloGL.dir/src/Renderer.cpp.o -c /Users/wangxiao/code/OpenGL/src/Renderer.cpp",
   "file": "/Users/wangxiao/code/OpenGL/src/Renderer.cpp",
   "output": "CMakeFiles/HelloGL.dir/src/Renderer.cpp.o"
 },
 {
   "directory": "/Users/wangxiao/code/OpenGL/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/wangxiao/code/OpenGL/include -I/Users/wangxiao/code/OpenGL/lib -I/Users/wangxiao/code/OpenGL/src -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o CMakeFiles/HelloGL.dir/src/VertexBuffer.cpp.o -c /Users/wangxiao/code/OpenGL/src/VertexBuffer.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/wangxiao/code/OpenGL/include -I/Users/wangxiao/code/OpenGL/src/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/HelloGL.dir/src/VertexBuffer.cpp.o -c /Users/wangxiao/code/OpenGL/src/VertexBuffer.cpp",
   "file": "/Users/wangxiao/code/OpenGL/src/VertexBuffer.cpp",
   "output": "CMakeFiles/HelloGL.dir/src/VertexBuffer.cpp.o"
 },
 {
   "directory": "/Users/wangxiao/code/OpenGL/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/wangxiao/code/OpenGL/include -I/Users/wangxiao/code/OpenGL/lib -I/Users/wangxiao/code/OpenGL/src -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o CMakeFiles/HelloGL.dir/src/IndexBuffer.cpp.o -c /Users/wangxiao/code/OpenGL/src/IndexBuffer.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/wangxiao/code/OpenGL/include -I/Users/wangxiao/code/OpenGL/src/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/HelloGL.dir/src/IndexBuffer.cpp.o -c /Users/wangxiao/code/OpenGL/src/IndexBuffer.cpp",
   "file": "/Users/wangxiao/code/OpenGL/src/IndexBuffer.cpp",
   "output": "CMakeFiles/HelloGL.dir/src/IndexBuffer.cpp.o"
 },
 {
   "directory": "/Users/wangxiao/code/OpenGL/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/wangxiao/code/OpenGL/include -I/Users/wangxiao/code/OpenGL/lib -I/Users/wangxiao/code/OpenGL/src -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -o CMakeFiles/HelloGL.dir/src/VertexArray.cpp.o -c /Users/wangxiao/code/OpenGL/src/VertexArray.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/wangxiao/code/OpenGL/include -I/Users/wangxiao/code/OpenGL/src/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/HelloGL.dir/src/VertexArray.cpp.o -c /Users/wangxiao/code/OpenGL/src/VertexArray.cpp",
   "file": "/Users/wangxiao/code/OpenGL/src/VertexArray.cpp",
   "output": "CMakeFiles/HelloGL.dir/src/VertexArray.cpp.o"
+},
+{
+  "directory": "/Users/wangxiao/code/OpenGL/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/wangxiao/code/OpenGL/include -I/Users/wangxiao/code/OpenGL/src/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/HelloGL.dir/src/Shader.cpp.o -c /Users/wangxiao/code/OpenGL/src/Shader.cpp",
+  "file": "/Users/wangxiao/code/OpenGL/src/Shader.cpp",
+  "output": "CMakeFiles/HelloGL.dir/src/Shader.cpp.o"
 }
 ]

@@ -132,7 +132,7 @@ CMAKE_OSX_ARCHITECTURES:STRING=
 
 //Minimum OS X version to target for deployment (at runtime); newer
 // APIs weak linked. Set to empty string for default value.
-CMAKE_OSX_DEPLOYMENT_TARGET:STRING=14.4
+CMAKE_OSX_DEPLOYMENT_TARGET:STRING=
 
 //The product will be built against the headers and libraries located
 // inside the indicated SDK.
@@ -235,9 +235,6 @@ HelloGL_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 HelloGL_SOURCE_DIR:STATIC=/Users/wangxiao/code/OpenGL
-
-//Dependencies for the target
-OpenGL_LIB_DEPENDS:STATIC=general;/Users/wangxiao/code/OpenGL/lib/libglfw.3.dylib;general;/Users/wangxiao/code/OpenGL/lib/libGLEW.dylib;
 
 
 ########################

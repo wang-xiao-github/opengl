@@ -103,6 +103,10 @@
     "variant": "cpp",
     "vector": "cpp",
     "__split_buffer": "cpp",
-    "array": "cpp"
+    "array": "cpp",
+    "__hash_table": "cpp",
+    "__node_handle": "cpp",
+    "optional": "cpp",
+    "unordered_map": "cpp"
   }
 }

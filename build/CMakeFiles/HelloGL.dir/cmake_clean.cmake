@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/HelloGL.dir/src/IndexBuffer.cpp.o.d"
   "CMakeFiles/HelloGL.dir/src/Renderer.cpp.o"
   "CMakeFiles/HelloGL.dir/src/Renderer.cpp.o.d"
+  "CMakeFiles/HelloGL.dir/src/Shader.cpp.o"
+  "CMakeFiles/HelloGL.dir/src/Shader.cpp.o.d"
   "CMakeFiles/HelloGL.dir/src/VertexArray.cpp.o"
   "CMakeFiles/HelloGL.dir/src/VertexArray.cpp.o.d"
   "CMakeFiles/HelloGL.dir/src/VertexBuffer.cpp.o"
