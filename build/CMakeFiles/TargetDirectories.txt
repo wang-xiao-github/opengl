@@ -1,0 +1,3 @@
+/Users/wangxiao/code/learnOpenGL/build/CMakeFiles/LearnOpenGL.dir
+/Users/wangxiao/code/learnOpenGL/build/CMakeFiles/edit_cache.dir
+/Users/wangxiao/code/learnOpenGL/build/CMakeFiles/rebuild_cache.dir

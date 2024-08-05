@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/Users/wangxiao/code/learnOpenGL/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/wangxiao/code/learnOpenGL/include -I/Users/wangxiao/code/learnOpenGL/vender -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/LearnOpenGL.dir/src/main.cpp.o -c /Users/wangxiao/code/learnOpenGL/src/main.cpp",
+  "file": "/Users/wangxiao/code/learnOpenGL/src/main.cpp",
+  "output": "CMakeFiles/LearnOpenGL.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/wangxiao/code/learnOpenGL/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/wangxiao/code/learnOpenGL/include -I/Users/wangxiao/code/learnOpenGL/vender -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/LearnOpenGL.dir/src/glad.c.o -c /Users/wangxiao/code/learnOpenGL/src/glad.c",
+  "file": "/Users/wangxiao/code/learnOpenGL/src/glad.c",
+  "output": "CMakeFiles/LearnOpenGL.dir/src/glad.c.o"
+},
+{
+  "directory": "/Users/wangxiao/code/learnOpenGL/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/wangxiao/code/learnOpenGL/include -I/Users/wangxiao/code/learnOpenGL/vender -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/LearnOpenGL.dir/src/shader.cpp.o -c /Users/wangxiao/code/learnOpenGL/src/shader.cpp",
+  "file": "/Users/wangxiao/code/learnOpenGL/src/shader.cpp",
+  "output": "CMakeFiles/LearnOpenGL.dir/src/shader.cpp.o"
+},
+{
+  "directory": "/Users/wangxiao/code/learnOpenGL/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/wangxiao/code/learnOpenGL/include -I/Users/wangxiao/code/learnOpenGL/vender -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/LearnOpenGL.dir/src/texture.cpp.o -c /Users/wangxiao/code/learnOpenGL/src/texture.cpp",
+  "file": "/Users/wangxiao/code/learnOpenGL/src/texture.cpp",
+  "output": "CMakeFiles/LearnOpenGL.dir/src/texture.cpp.o"
+},
+{
+  "directory": "/Users/wangxiao/code/learnOpenGL/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/wangxiao/code/learnOpenGL/include -I/Users/wangxiao/code/learnOpenGL/vender -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/LearnOpenGL.dir/src/camera.cpp.o -c /Users/wangxiao/code/learnOpenGL/src/camera.cpp",
+  "file": "/Users/wangxiao/code/learnOpenGL/src/camera.cpp",
+  "output": "CMakeFiles/LearnOpenGL.dir/src/camera.cpp.o"
+},
+{
+  "directory": "/Users/wangxiao/code/learnOpenGL/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/wangxiao/code/learnOpenGL/include -I/Users/wangxiao/code/learnOpenGL/vender -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -o CMakeFiles/LearnOpenGL.dir/vender/stb_image/stb_image.cpp.o -c /Users/wangxiao/code/learnOpenGL/vender/stb_image/stb_image.cpp",
+  "file": "/Users/wangxiao/code/learnOpenGL/vender/stb_image/stb_image.cpp",
+  "output": "CMakeFiles/LearnOpenGL.dir/vender/stb_image/stb_image.cpp.o"
+}
+]
