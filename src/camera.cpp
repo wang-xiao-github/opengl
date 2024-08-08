@@ -1,19 +1,14 @@
 #include "camera.h"
 
+Camera::Camera(/* args */){}
 
-Camera::Camera(/* args */)
-{
-}
+Camera::~Camera(){}
 
-Camera::~Camera()
-{
-}
-
-glm::mat4 Camera::getViewMatrix()
+glm::mat4 Camera::getViewMatrix() 
 {
     return glm::lookAt(cameraPos, cameraPos + cameraFront, cameraUp);
 }
-float Camera::getFov(){return fov;}
+
 //键盘移动
 void Camera::processKeyboard(Camera_Movement direction, float deltaTime)
 {
@@ -26,7 +21,12 @@ void Camera::processKeyboard(Camera_Movement direction, float deltaTime)
         cameraPos -= glm::normalize(glm::cross(cameraFront, cameraUp)) * velocity;
     if (direction == RIGHT)
         cameraPos += glm::normalize(glm::cross(cameraFront, cameraUp)) * velocity;
-    cameraPos.y = 0.0f; //FPS视角，限制在xz平面
+    if (direction == UP)
+        cameraPos += velocity * glm::vec3(0.0f, 1.0f, 0.0f);
+    if (direction == DOWN)
+        cameraPos -= velocity * glm::vec3(0.0f, 1.0f, 0.0f);
+
+    // cameraPos.y = 0.0f; //FPS视角，限制在xz平面
 };
 //鼠标转动方向
 void Camera::processMouseMovement(double xpos, double ypos)

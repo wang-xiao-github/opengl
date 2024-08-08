@@ -27,7 +27,6 @@ add_executable(${PROJECT_NAME}
     ${VENDER_DIR}/stb_image/stb_image.cpp
 )
 
-
 # 链接系统的 OpenGL 框架
 if (APPLE)
     target_link_libraries(${PROJECT_NAME} "-framework OpenGL")

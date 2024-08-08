@@ -20,12 +20,16 @@ private:
 public:
     Shader(const std::string& vertexShaderPath, const std::string& fragmentShaderPath);
     ~Shader();
-    void use();
-    unsigned int getShaderID() { return m_ShaderProgramID; }
-    void setBool(const std::string& name, bool value);
-    void setInt(const std::string& name, int value);
-    void setFloat(const std::string& name, float value);
-    void setMat4(const std::string& name, glm::mat4& mat4);
+    void use() const;
+    unsigned int getShaderID() const { return m_ShaderProgramID; }
+    void setBool(const std::string& name, bool value) const;
+    void setInt(const std::string& name, int value) const;
+    void setFloat(const std::string& name, float value) const;
+    void setMat4(const std::string& name, glm::mat4& mat4) const;
+    void setMat3(const std::string& name, glm::mat3& mat3) const;
+    void setVec2(const std::string& name, glm::vec2& vec2) const;
+    void setVec3(const std::string& name, const glm::vec3& vec3) const;
+    void setVec4(const std::string& name, glm::vec4& vec4) const;
 
 };
 

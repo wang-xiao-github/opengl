@@ -8,7 +8,9 @@ enum Camera_Movement
     FORWARD,
     BACKWARD,
     LEFT,
-    RIGHT
+    RIGHT,
+    UP,
+    DOWN
 };
 
 class Camera
@@ -21,15 +23,18 @@ private:
     float pitch = 0.0f;
     float fov = 45.0f;
     bool firstMouse = true;
-    glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f,  9.0f);
-    glm::vec3 cameraFront = glm::vec3(0.0f, 0.0f, -1.0f);
+    // glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 6.0f);
+    // glm::vec3 cameraFront = glm::vec3(0.0f, 0.0f, -1.0f);
     glm::vec3 cameraUp = glm::vec3(0.0f, 1.0f, 0.0f);
 
 public:
+    glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 6.0f);
+    glm::vec3 cameraFront = glm::vec3(0.0f, 0.0f, -1.0f);
     Camera(/* args */);
     ~Camera();
     glm::mat4 getViewMatrix();
-    float getFov();
+    float getFov() const {return fov;}
+    // glm::vec3 getCameraPos() const { return cameraPos; }
     //键盘移动
     void processKeyboard(Camera_Movement direction, float deltaTime);
     //鼠标转动方向

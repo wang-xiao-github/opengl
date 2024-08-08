@@ -13,7 +13,7 @@ Texture::Texture(const std::string& path, unsigned int textureType)
 
     stbi_set_flip_vertically_on_load(true);  //翻转
     unsigned char* data = stbi_load(path.c_str(), &width, &height, &nrChannels, 0);
-    std::cout << nrChannels << "\n";
+
     if(data)
     {
             
