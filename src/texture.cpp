@@ -1,6 +1,6 @@
 #include "texture.h"
 #include <iostream>
-Texture::Texture(const std::string& path, unsigned int textureType)
+Textures::Textures(const std::string& path, unsigned int textureType)
 : m_TextureID(0), width(0), height(0), nrChannels(0), m_textureType(textureType)
 {
     glGenTextures(1, &m_TextureID);
@@ -36,11 +36,11 @@ Texture::Texture(const std::string& path, unsigned int textureType)
 }
 
 
-Texture::~Texture()
+Textures::~Textures()
 {
     glDeleteTextures(1, &m_TextureID);
 }
-void Texture::bind(unsigned int slot) const
+void Textures::bind(unsigned int slot) const
 {
     glActiveTexture(GL_TEXTURE0 + slot);
     glBindTexture(m_textureType, m_TextureID);

@@ -73,85 +73,85 @@ CMakeFiles/LearnOpenGL.dir/src/main.cpp.o: CMakeFiles/LearnOpenGL.dir/flags.make
 CMakeFiles/LearnOpenGL.dir/src/main.cpp.o: /Users/wangxiao/code/learnOpenGL/src/main.cpp
 CMakeFiles/LearnOpenGL.dir/src/main.cpp.o: CMakeFiles/LearnOpenGL.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wangxiao/code/learnOpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LearnOpenGL.dir/src/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LearnOpenGL.dir/src/main.cpp.o -MF CMakeFiles/LearnOpenGL.dir/src/main.cpp.o.d -o CMakeFiles/LearnOpenGL.dir/src/main.cpp.o -c /Users/wangxiao/code/learnOpenGL/src/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LearnOpenGL.dir/src/main.cpp.o -MF CMakeFiles/LearnOpenGL.dir/src/main.cpp.o.d -o CMakeFiles/LearnOpenGL.dir/src/main.cpp.o -c /Users/wangxiao/code/learnOpenGL/src/main.cpp
 
 CMakeFiles/LearnOpenGL.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LearnOpenGL.dir/src/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wangxiao/code/learnOpenGL/src/main.cpp > CMakeFiles/LearnOpenGL.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wangxiao/code/learnOpenGL/src/main.cpp > CMakeFiles/LearnOpenGL.dir/src/main.cpp.i
 
 CMakeFiles/LearnOpenGL.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LearnOpenGL.dir/src/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wangxiao/code/learnOpenGL/src/main.cpp -o CMakeFiles/LearnOpenGL.dir/src/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wangxiao/code/learnOpenGL/src/main.cpp -o CMakeFiles/LearnOpenGL.dir/src/main.cpp.s
 
 CMakeFiles/LearnOpenGL.dir/src/glad.c.o: CMakeFiles/LearnOpenGL.dir/flags.make
 CMakeFiles/LearnOpenGL.dir/src/glad.c.o: /Users/wangxiao/code/learnOpenGL/src/glad.c
 CMakeFiles/LearnOpenGL.dir/src/glad.c.o: CMakeFiles/LearnOpenGL.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wangxiao/code/learnOpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/LearnOpenGL.dir/src/glad.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LearnOpenGL.dir/src/glad.c.o -MF CMakeFiles/LearnOpenGL.dir/src/glad.c.o.d -o CMakeFiles/LearnOpenGL.dir/src/glad.c.o -c /Users/wangxiao/code/learnOpenGL/src/glad.c
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/LearnOpenGL.dir/src/glad.c.o -MF CMakeFiles/LearnOpenGL.dir/src/glad.c.o.d -o CMakeFiles/LearnOpenGL.dir/src/glad.c.o -c /Users/wangxiao/code/learnOpenGL/src/glad.c
 
 CMakeFiles/LearnOpenGL.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/LearnOpenGL.dir/src/glad.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangxiao/code/learnOpenGL/src/glad.c > CMakeFiles/LearnOpenGL.dir/src/glad.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wangxiao/code/learnOpenGL/src/glad.c > CMakeFiles/LearnOpenGL.dir/src/glad.c.i
 
 CMakeFiles/LearnOpenGL.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/LearnOpenGL.dir/src/glad.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangxiao/code/learnOpenGL/src/glad.c -o CMakeFiles/LearnOpenGL.dir/src/glad.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wangxiao/code/learnOpenGL/src/glad.c -o CMakeFiles/LearnOpenGL.dir/src/glad.c.s
 
 CMakeFiles/LearnOpenGL.dir/src/shader.cpp.o: CMakeFiles/LearnOpenGL.dir/flags.make
 CMakeFiles/LearnOpenGL.dir/src/shader.cpp.o: /Users/wangxiao/code/learnOpenGL/src/shader.cpp
 CMakeFiles/LearnOpenGL.dir/src/shader.cpp.o: CMakeFiles/LearnOpenGL.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wangxiao/code/learnOpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LearnOpenGL.dir/src/shader.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LearnOpenGL.dir/src/shader.cpp.o -MF CMakeFiles/LearnOpenGL.dir/src/shader.cpp.o.d -o CMakeFiles/LearnOpenGL.dir/src/shader.cpp.o -c /Users/wangxiao/code/learnOpenGL/src/shader.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LearnOpenGL.dir/src/shader.cpp.o -MF CMakeFiles/LearnOpenGL.dir/src/shader.cpp.o.d -o CMakeFiles/LearnOpenGL.dir/src/shader.cpp.o -c /Users/wangxiao/code/learnOpenGL/src/shader.cpp
 
 CMakeFiles/LearnOpenGL.dir/src/shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LearnOpenGL.dir/src/shader.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wangxiao/code/learnOpenGL/src/shader.cpp > CMakeFiles/LearnOpenGL.dir/src/shader.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wangxiao/code/learnOpenGL/src/shader.cpp > CMakeFiles/LearnOpenGL.dir/src/shader.cpp.i
 
 CMakeFiles/LearnOpenGL.dir/src/shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LearnOpenGL.dir/src/shader.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wangxiao/code/learnOpenGL/src/shader.cpp -o CMakeFiles/LearnOpenGL.dir/src/shader.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wangxiao/code/learnOpenGL/src/shader.cpp -o CMakeFiles/LearnOpenGL.dir/src/shader.cpp.s
 
 CMakeFiles/LearnOpenGL.dir/src/texture.cpp.o: CMakeFiles/LearnOpenGL.dir/flags.make
 CMakeFiles/LearnOpenGL.dir/src/texture.cpp.o: /Users/wangxiao/code/learnOpenGL/src/texture.cpp
 CMakeFiles/LearnOpenGL.dir/src/texture.cpp.o: CMakeFiles/LearnOpenGL.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wangxiao/code/learnOpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LearnOpenGL.dir/src/texture.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LearnOpenGL.dir/src/texture.cpp.o -MF CMakeFiles/LearnOpenGL.dir/src/texture.cpp.o.d -o CMakeFiles/LearnOpenGL.dir/src/texture.cpp.o -c /Users/wangxiao/code/learnOpenGL/src/texture.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LearnOpenGL.dir/src/texture.cpp.o -MF CMakeFiles/LearnOpenGL.dir/src/texture.cpp.o.d -o CMakeFiles/LearnOpenGL.dir/src/texture.cpp.o -c /Users/wangxiao/code/learnOpenGL/src/texture.cpp
 
 CMakeFiles/LearnOpenGL.dir/src/texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LearnOpenGL.dir/src/texture.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wangxiao/code/learnOpenGL/src/texture.cpp > CMakeFiles/LearnOpenGL.dir/src/texture.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wangxiao/code/learnOpenGL/src/texture.cpp > CMakeFiles/LearnOpenGL.dir/src/texture.cpp.i
 
 CMakeFiles/LearnOpenGL.dir/src/texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LearnOpenGL.dir/src/texture.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wangxiao/code/learnOpenGL/src/texture.cpp -o CMakeFiles/LearnOpenGL.dir/src/texture.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wangxiao/code/learnOpenGL/src/texture.cpp -o CMakeFiles/LearnOpenGL.dir/src/texture.cpp.s
 
 CMakeFiles/LearnOpenGL.dir/src/camera.cpp.o: CMakeFiles/LearnOpenGL.dir/flags.make
 CMakeFiles/LearnOpenGL.dir/src/camera.cpp.o: /Users/wangxiao/code/learnOpenGL/src/camera.cpp
 CMakeFiles/LearnOpenGL.dir/src/camera.cpp.o: CMakeFiles/LearnOpenGL.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wangxiao/code/learnOpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LearnOpenGL.dir/src/camera.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LearnOpenGL.dir/src/camera.cpp.o -MF CMakeFiles/LearnOpenGL.dir/src/camera.cpp.o.d -o CMakeFiles/LearnOpenGL.dir/src/camera.cpp.o -c /Users/wangxiao/code/learnOpenGL/src/camera.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LearnOpenGL.dir/src/camera.cpp.o -MF CMakeFiles/LearnOpenGL.dir/src/camera.cpp.o.d -o CMakeFiles/LearnOpenGL.dir/src/camera.cpp.o -c /Users/wangxiao/code/learnOpenGL/src/camera.cpp
 
 CMakeFiles/LearnOpenGL.dir/src/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LearnOpenGL.dir/src/camera.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wangxiao/code/learnOpenGL/src/camera.cpp > CMakeFiles/LearnOpenGL.dir/src/camera.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wangxiao/code/learnOpenGL/src/camera.cpp > CMakeFiles/LearnOpenGL.dir/src/camera.cpp.i
 
 CMakeFiles/LearnOpenGL.dir/src/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LearnOpenGL.dir/src/camera.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wangxiao/code/learnOpenGL/src/camera.cpp -o CMakeFiles/LearnOpenGL.dir/src/camera.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wangxiao/code/learnOpenGL/src/camera.cpp -o CMakeFiles/LearnOpenGL.dir/src/camera.cpp.s
 
 CMakeFiles/LearnOpenGL.dir/vender/stb_image/stb_image.cpp.o: CMakeFiles/LearnOpenGL.dir/flags.make
 CMakeFiles/LearnOpenGL.dir/vender/stb_image/stb_image.cpp.o: /Users/wangxiao/code/learnOpenGL/vender/stb_image/stb_image.cpp
 CMakeFiles/LearnOpenGL.dir/vender/stb_image/stb_image.cpp.o: CMakeFiles/LearnOpenGL.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wangxiao/code/learnOpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/LearnOpenGL.dir/vender/stb_image/stb_image.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LearnOpenGL.dir/vender/stb_image/stb_image.cpp.o -MF CMakeFiles/LearnOpenGL.dir/vender/stb_image/stb_image.cpp.o.d -o CMakeFiles/LearnOpenGL.dir/vender/stb_image/stb_image.cpp.o -c /Users/wangxiao/code/learnOpenGL/vender/stb_image/stb_image.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LearnOpenGL.dir/vender/stb_image/stb_image.cpp.o -MF CMakeFiles/LearnOpenGL.dir/vender/stb_image/stb_image.cpp.o.d -o CMakeFiles/LearnOpenGL.dir/vender/stb_image/stb_image.cpp.o -c /Users/wangxiao/code/learnOpenGL/vender/stb_image/stb_image.cpp
 
 CMakeFiles/LearnOpenGL.dir/vender/stb_image/stb_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LearnOpenGL.dir/vender/stb_image/stb_image.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wangxiao/code/learnOpenGL/vender/stb_image/stb_image.cpp > CMakeFiles/LearnOpenGL.dir/vender/stb_image/stb_image.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wangxiao/code/learnOpenGL/vender/stb_image/stb_image.cpp > CMakeFiles/LearnOpenGL.dir/vender/stb_image/stb_image.cpp.i
 
 CMakeFiles/LearnOpenGL.dir/vender/stb_image/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LearnOpenGL.dir/vender/stb_image/stb_image.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wangxiao/code/learnOpenGL/vender/stb_image/stb_image.cpp -o CMakeFiles/LearnOpenGL.dir/vender/stb_image/stb_image.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wangxiao/code/learnOpenGL/vender/stb_image/stb_image.cpp -o CMakeFiles/LearnOpenGL.dir/vender/stb_image/stb_image.cpp.s
 
 # Object files for target LearnOpenGL
 LearnOpenGL_OBJECTS = \
@@ -173,6 +173,7 @@ LearnOpenGL: CMakeFiles/LearnOpenGL.dir/src/camera.cpp.o
 LearnOpenGL: CMakeFiles/LearnOpenGL.dir/vender/stb_image/stb_image.cpp.o
 LearnOpenGL: CMakeFiles/LearnOpenGL.dir/build.make
 LearnOpenGL: /Users/wangxiao/code/learnOpenGL/lib/glfw/libglfw.3.dylib
+LearnOpenGL: /Users/wangxiao/code/learnOpenGL/lib/assimp/libassimpd.5.4.1.dylib
 LearnOpenGL: CMakeFiles/LearnOpenGL.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/wangxiao/code/learnOpenGL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable LearnOpenGL"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LearnOpenGL.dir/link.txt --verbose=$(VERBOSE)

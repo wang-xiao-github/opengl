@@ -13,6 +13,7 @@ set(LIB_DIR ${PROJECT_SOURCE_DIR}/lib)
 
 link_libraries(
     ${LIB_DIR}/glfw/libglfw.3.dylib
+    ${LIB_DIR}/assimp/libassimpd.5.4.1.dylib
 )
 
 set(SRC_DIR ${PROJECT_SOURCE_DIR}/src)
