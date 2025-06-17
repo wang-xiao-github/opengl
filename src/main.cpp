@@ -170,25 +170,66 @@ int main(void)
 
 
     
-        //创建顶点数组对象 (VAO) 关于使用同一个顶点数组还是每个顶点缓冲都配一个顶点数组，性能情况要具体分析
-        // unsigned int vao;
-        // glGenVertexArrays(1, &vao);
-        // glBindVertexArray(vao);
+// <<<<<<< Opengl-Abstract
+//         //创建顶点数组对象 (VAO) 关于使用同一个顶点数组还是每个顶点缓冲都配一个顶点数组，性能情况要具体分析
+//         // unsigned int vao;
+//         // glGenVertexArrays(1, &vao);
+//         // glBindVertexArray(vao);
         
         
-        VertexArray va;
-        VertexBuffer vb(position, sizeof(float) * 2 * 51);
-        VertexBufferLayout layout;
-        layout.Push<float>(2); 
-        va.AddBuffer(vb, layout);
+//         VertexArray va;
+//         VertexBuffer vb(position, sizeof(float) * 2 * 51);
+//         VertexBufferLayout layout;
+//         layout.Push<float>(2); 
+//         va.AddBuffer(vb, layout);
     
-        // glEnableVertexAttribArray(0); //启用
-        // //参数分别为：缓冲区中实际属性的索引对type的计数；归一化（比如颜色0~255归一化成0~1的浮点数）；每个顶点之间的字节数，指向实际属性的指针
-        // glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE,sizeof(float)*2, 0);
+//         // glEnableVertexAttribArray(0); //启用
+//         // //参数分别为：缓冲区中实际属性的索引对type的计数；归一化（比如颜色0~255归一化成0~1的浮点数）；每个顶点之间的字节数，指向实际属性的指针
+//         // glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE,sizeof(float)*2, 0);
         
-        //索引缓冲区
-        IndexBuffer ib(indices, 3*50);
+//         //索引缓冲区
+//         IndexBuffer ib(indices, 3*50);
 
+// =======
+//     unsigned int buffer; // 标识缓冲区的id，供后期访问用
+//     glGenBuffers(1, &buffer); //生成一个缓冲区
+//     glBindBuffer(GL_ARRAY_BUFFER, buffer); //绑定缓冲区，第一个参数是目标，意思是生成的buffer是干嘛用的，这里是当数组；第二个参数传入buffer id
+//     //第一个参数同样是目标；第二个，指定缓冲区的新数据存储的字节大小；第三个数实际属性；第四个，绘制方式，静态，动态等，静态修改一次，每帧不会变，
+//     glBufferData(GL_ARRAY_BUFFER, sizeof(float) * 2 * 4, position, GL_STATIC_DRAW);
+  
+//     glEnableVertexAttribArray(0); //启用
+//     //参数分别为：缓冲区中实际属性的索引对type的计数；归一化（比如颜色0~255归一化成0~1的浮点数）；每个顶点之间的字节数，指向实际属性的指针
+//     glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE,sizeof(float)*2, 0);
+
+
+//     //索引缓冲区
+//     unsigned int ibo; // 标识缓冲区的id，供后期访问用
+//     glGenBuffers(1, &ibo); //生成一个缓冲区
+//     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ibo); //绑定缓冲区，第一个参数是目标，意思是生成的buffer是干嘛用的，这里是当数组；第二个参数传入buffer id
+//     //第一个参数同样是目标；第二个，指定缓冲区的新数据存储的字节大小；第三个数实际属性；第四个，绘制方式，静态，动态等，静态修改一次，每帧不会变，
+//     glBufferData(GL_ELEMENT_ARRAY_BUFFER,sizeof(unsigned int) * 3 * 2, indices, GL_STATIC_DRAW);
+
+
+//     //读取shader program的字符串
+//     ShaderProgramSource source = ParseShader("/Users/wangxiao/code/OpenGL/res/shaders/Basic.shaders");
+//     //创建shader
+//     unsigned int shader = CreateShader(source.VertexShader, source.FragmentShader);
+
+//     glUseProgram(shader);
+//     //使用同一变量设定color
+//     int location = glGetUniformLocation(shader, "u_Color");
+//     glUniform4f(location, 0.1f, 0.3f, 0.8f, 1.0f);
+
+//     //设定一定的间隔，得到颜色的变化
+//     float r = 0.0f;
+//     float increment = 0.05f;
+//     //test
+//     /* Loop until the user closes the window */
+//     while (!glfwWindowShouldClose(window))
+//     {
+//         /* Render here */
+//         glClear(GL_COLOR_BUFFER_BIT);
+// >>>>>>> main
 
         //读取shader program的字符串
         Shader shader("/Users/wangxiao/code/OpenGL/res/shaders/Basic.shaders");
