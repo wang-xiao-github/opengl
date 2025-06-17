@@ -199,7 +199,7 @@ int main(void)
     //设定一定的间隔，得到颜色的变化
     float r = 0.0f;
     float increment = 0.05f;
-
+    //test
     /* Loop until the user closes the window */
     while (!glfwWindowShouldClose(window))
     {
