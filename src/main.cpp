@@ -272,6 +272,11 @@ int main(void)
     return 0;
 }
 
+void test2()
+{
+    
+}
+
 //不自己写一个shader，会有一个默认的shader被提供
 //顶点(vertex)着色器和片段(fragment)着色器(也叫像素着色器)
 //着色器就是为了告诉位置在窗口的哪一个地方 
